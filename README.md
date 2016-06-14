@@ -72,7 +72,7 @@ Current build status
 
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/memory_profiler-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/memory_profiler-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/memory_profiler-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/memory_profiler-feedstock) 
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/memory-profiler-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/memory-profiler-feedstock/branch/master)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/memory_profiler-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/memory-profiler-feedstock/branch/master)
 
 Current release info
 ====================
