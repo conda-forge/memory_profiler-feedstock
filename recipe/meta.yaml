@@ -27,6 +27,7 @@ test:
     - memory_profiler
 
   commands:
+    - mprof list
     - python -m memory_profiler --help
 
 about:
