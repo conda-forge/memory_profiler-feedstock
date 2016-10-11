@@ -33,6 +33,12 @@ test:
 about:
   home: http://pypi.python.org/pypi/memory_profiler
   license: BSD 3-Clause
+  license_family: BSD
+  # Not yet included. Please see PR for addition.
+  #
+  # https://github.com/fabianp/memory_profiler/pull/124
+  #
+  # license_file: COPYING
   summary: A module for monitoring memory usage of a python program
 
 extra:
