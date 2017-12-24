@@ -1,4 +1,4 @@
-{% set version = "0.47" %}
+{% set version = "0.50.0" %}
 
 package:
   name: memory_profiler
@@ -7,7 +7,7 @@ package:
 source:
   fn: memory_profiler-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/m/memory_profiler/memory_profiler-{{ version }}.tar.gz
-  sha256: e992f2a341a5332dad1ad4a008eeac7cfe78c7ea4abdf7535a3e7e79093328cb
+  sha256: 99bc5be2597af4cd5ed3ec7323961a27b3c5b20d8503aa4e7e3a5321b024e547
 
 build:
   number: 0
