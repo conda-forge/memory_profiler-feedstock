@@ -14,9 +14,7 @@ Summary: A module for monitoring memory usage of a python program
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/memory_profiler-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/memory_profiler-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/memory_profiler-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/memory_profiler-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/memory_profiler-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/memory-profiler-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/memory_profiler-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/memory_profiler-feedstock)
 
 Current release info
 ====================
