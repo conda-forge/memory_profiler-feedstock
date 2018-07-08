@@ -14,14 +14,15 @@ Summary: A module for monitoring memory usage of a python program
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/memory_profiler-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/memory_profiler-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/memory_profiler-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/memory_profiler-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/memory_profiler-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/memory-profiler-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/memory_profiler-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/memory_profiler-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/memory_profiler/badges/version.svg)](https://anaconda.org/conda-forge/memory_profiler)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/memory_profiler/badges/downloads.svg)](https://anaconda.org/conda-forge/memory_profiler)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-memory_profiler-green.svg)](https://anaconda.org/conda-forge/memory_profiler) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/memory_profiler.svg)](https://anaconda.org/conda-forge/memory_profiler) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/memory_profiler.svg)](https://anaconda.org/conda-forge/memory_profiler) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/memory_profiler.svg)](https://anaconda.org/conda-forge/memory_profiler) |
 
 Installing memory_profiler
 ==========================
