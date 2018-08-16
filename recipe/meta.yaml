@@ -11,7 +11,10 @@ source:
 
 build:
   number: 0
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  entry_points:
+    - mprof = mprof:main
 
 requirements:
   host:
@@ -33,7 +36,7 @@ about:
   license: BSD 3-Clause
   license_family: BSD
   license_file: COPYING
-  summary: A module for monitoring memory usage of a python program
+  summary: 'A module for monitoring memory usage of a python program'
   dev_url: https://github.com/pythonprofilers/memory_profiler
 
 extra:
