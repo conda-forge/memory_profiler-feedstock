@@ -1,4 +1,4 @@
-{% set version = "0.54.0" %}
+{% set version = "0.55.0" %}
 
 package:
   name: memory_profiler
@@ -7,12 +7,12 @@ package:
 source:
   fn: memory_profiler-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/m/memory_profiler/memory_profiler-{{ version }}.tar.gz
-  sha256: d64342a23f32e105f4929b408a8b89d9222c3ce8afbbb3359817555811448d1a
+  sha256: 5fa47b274c929dd2cbcd9190afb62fec110701251d2ac2d301caaf545c81afc1
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   entry_points:
     - mprof = mprof:main
 
