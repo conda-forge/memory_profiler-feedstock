@@ -3,7 +3,7 @@ About memory_profiler
 
 Home: http://pypi.python.org/pypi/memory_profiler
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/memory_profiler-feedstock/blob/master/LICENSE.txt)
 
