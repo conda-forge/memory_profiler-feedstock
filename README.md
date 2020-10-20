@@ -3,13 +3,13 @@ About memory_profiler
 
 Home: http://pypi.python.org/pypi/memory_profiler
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/memory_profiler-feedstock/blob/master/LICENSE.txt)
 
 Summary: A module for monitoring memory usage of a python program
 
-
+Development: https://github.com/pythonprofilers/memory_profiler
 
 Current build status
 ====================
