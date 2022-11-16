@@ -26,6 +26,7 @@ requirements:
 test:
   imports:
     - memory_profiler
+    - mprof
   commands:
     - mprof list
     - python -m memory_profiler --help
