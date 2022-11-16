@@ -5,7 +5,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: memory_profiler-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/m/memory_profiler/memory_profiler-{{ version }}.tar.gz
   sha256: 4e5b73d7864a1d1292fb76a03e82a3e78ef934d06828a698d9dada76da2067b0
 
