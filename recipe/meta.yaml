@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/m/memory_profiler/memory_profiler-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/m/memory_profiler/memory_profiler-{{ version }}.tar.gz
   sha256: 4e5b73d7864a1d1292fb76a03e82a3e78ef934d06828a698d9dada76da2067b0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -17,13 +17,15 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.5
+    - python >={{ python_min }}
     - psutil
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - memory_profiler
     - mprof
